@@ -1,0 +1,115 @@
+@import url(../css/fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter";
+}
+
+/* header start */
+.navbar {
+    padding: 24px 0 16px 0 !important;
+}
+.navbar-collapse{
+    flex-basis: unset !important;
+    flex-grow: 0;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav__search {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+}
+.nav__search-input {
+    border: unset;
+    max-width: 66px;
+    width: 100%;
+}
+.nav__search-input::placeholder{
+    color: #718096;
+    font-size: 16px;
+    font-weight: 400;
+}
+.navbar-nav {
+    column-gap: 30px;
+    align-items: center;
+}
+.nav-link {
+    padding: unset !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000 !important;
+}
+.nav__link-icon {
+    color: #454444;
+}
+.navbar-toggler-icon {
+    color: red !important;
+}
+
+.header__content {
+    padding: 70px 0;
+    width: 100%;
+    background: #FBFBFB;
+}
+.header__content-title {
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+.header__title {
+    max-width: 354px;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px;
+    position: relative;
+}
+.header__title::after{
+    content: url(../img/coffee.png);
+    display: inline-block;
+    width: 70px;
+    height: 67px;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;
+
+}
+.header__text {
+    color: #4A5568;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.header__content-image {
+    width: 100%;
+}
+
+/* header end */
+
+
+/* eslableshed start */
+.eslableshed__image {
+    width: 100%;
+}
+.eslableshed__title  {
+    font-size: 30px;
+    font-weight: 700;
+}
+/* eslableshed end */
+
